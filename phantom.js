@@ -1,12 +1,12 @@
 
 // TODO: cli injection
-var pages = ['/', '/about'];
+var pages = ['/', '/our-plan'];
 
-var url = 'http://localhost:8889';
+var url = 'http://localhost:8080';
 
 pages.forEach(function(name) {
   var page = require('webpage').create();
-  page.viewportSize = { width: 1280, height: 1 };
+  page.viewportSize = { width: 1280, height: 1024 };
 
   console.log('url + name', url + name)
 
