@@ -1,0 +1,25 @@
+{
+  "name": "pdfs",
+  "version": "0.0.1",
+  "description": "Generate PDFs for a website w/ PhantomJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weisjohn/pdfs.git"
+  },
+  "keywords": [
+    "pdfs",
+    "render",
+    "phantomjs",
+    "snapshot"
+  ],
+  "author": "John Weis <weis.john@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weisjohn/pdfs/issues"
+  },
+  "homepage": "https://github.com/weisjohn/pdfs#readme"
+}
